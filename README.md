@@ -1,8 +1,6 @@
-# dynamoDB_RAP_Albuns
+-COMANDOS UTILIZADOS NO PROJETO
 
-<h1>COMANDOS UTILIZADOS NO PROJETO</h1>
-
-<h2>CRIAÇÃO DA TABELA MÚSICAS</h2>
+-CRIAÇÃO DA TABELA MÚSICAS
 
 ```
 aws dynamodb create-table \
@@ -17,7 +15,7 @@ aws dynamodb create-table \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
 
-<h2>INSERÇÃO DAS MÚSICAS POR ALBÚM</h2>
+-INSERÇÃO DAS MÚSICAS POR ALBÚM
 
 ```
 aws dynamodb batch-write-item \
@@ -32,7 +30,7 @@ aws dynamodb batch-write-item \
     --request-items file://icarus.json
 ```
 
-<h2>CRIAÇÃO DOS INDEXES GLOBAIS SECUNDÁRIOS</h2>
+-CRIAÇÃO DOS INDEXES GLOBAIS SECUNDÁRIOS
 
 <h3>TÍTULO DO ALBUM</h3>
 
@@ -69,7 +67,7 @@ aws dynamodb update-table \
         \"ProvisionedThroughput\": {\"ReadCapacityUnits\": 10, \"WriteCapacityUnits\": 5      },\"Projection\":{\"ProjectionType\":\"ALL\"}}}]"
 ```
 
-<h2>TESTE COM QUERIES</h2>
+-TESTE COM QUERIES
 
 <h3>MÚSICAS POR ARTISTA</h3>
 
