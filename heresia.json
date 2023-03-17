@@ -1,0 +1,104 @@
+{
+    "Musicas": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "O Mundo E Nosso"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Verdades Inventadas"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Fantasmas"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Entre o Codigo da Espada e o Perfume da Rosa"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Geminiano"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Irmaos de Arma, Irmaos de Luta"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Santa Ceia"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Corre das Notas"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Esquimo"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Djonga"},
+                  "Titulo": {"S": "Heresia"},
+                  "Album": {"S": "Heresia"},
+                  "AnoLancamento": {"S": "2017"}
+                }
+            }
+        }
+      ]
+}

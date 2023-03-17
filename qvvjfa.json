@@ -1,0 +1,124 @@
+{
+    "Musicas": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Imortais e Fatais 2"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Sei Partir"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "4 da Manha em Salvador"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Cigana"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },		
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Lagrimas"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Samba in Paris"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Inimigos"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Dois Amores"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "20 Ligacoes"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Mulheres Grandes"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Sinto Tanta Raiva..."},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "Baco Exu do Blues"},
+                  "Titulo": {"S": "Autoestima"},
+                  "Album": {"S": "QVVJFA?"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        }		
+      ]
+}

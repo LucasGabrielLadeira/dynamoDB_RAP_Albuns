@@ -1,0 +1,134 @@
+{
+    "Musicas": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "So me ligar"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Em nome do que sinto"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Luzes"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Carta aberta"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Amanhecer"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Tudo mudou e nada mudou"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Continuacao de um sonho"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Musicas de amor nunca mais"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Nome nas ruas"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Lugar na mesa"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Se eu nao lembrar"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Foto armado"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                  "Artista": {"S": "BK'"},
+                  "Titulo": {"S": "Luta e lucro"},
+                  "Album": {"S": "Icarus"},
+                  "AnoLancamento": {"S": "2022"}
+                }
+            }
+        }			
+      ]
+}
