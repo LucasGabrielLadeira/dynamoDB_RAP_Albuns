@@ -1,6 +1,6 @@
--COMANDOS UTILIZADOS NO PROJETO
+<h3>COMANDOS UTILIZADOS NO PROJETO</h3>
 
--CRIAÇÃO DA TABELA MÚSICAS
+<h4>CRIAÇÃO DA TABELA MÚSICAS</h4>
 
 ```
 aws dynamodb create-table \
@@ -15,7 +15,7 @@ aws dynamodb create-table \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
 
--INSERÇÃO DAS MÚSICAS POR ALBÚM
+<h4>INSERÇÃO DAS MÚSICAS POR ALBÚM</h4>
 
 ```
 aws dynamodb batch-write-item \
@@ -30,9 +30,9 @@ aws dynamodb batch-write-item \
     --request-items file://icarus.json
 ```
 
--CRIAÇÃO DOS INDEXES GLOBAIS SECUNDÁRIOS
+<h4>CRIAÇÃO DOS INDEXES GLOBAIS SECUNDÁRIOS</h4>
 
-<h3>TÍTULO DO ALBUM</h3>
+<h5>TÍTULO DO ALBUM</h5>
 
 ```
 aws dynamodb update-table \
@@ -42,7 +42,7 @@ aws dynamodb update-table \
         "[{\"Create\":{\"IndexName\": \"Titulo-index\",\"KeySchema\":[{\"AttributeName\":\"Titulo\",\"KeyType\":\"HASH\"}], \
         \"ProvisionedThroughput\": {\"ReadCapacityUnits\": 10, \"WriteCapacityUnits\": 5      },\"Projection\":{\"ProjectionType\":\"ALL\"}}}]"
 ```
-<h3>ARTISTA E TÍTULO</h3>
+<h5>ARTISTA E TÍTULO</h5>
 
 ```
 aws dynamodb update-table \
@@ -54,7 +54,7 @@ aws dynamodb update-table \
         "[{\"Create\":{\"IndexName\": \"ArtistaTitulo-index\",\"KeySchema\":[{\"AttributeName\":\"Artista\",\"KeyType\":\"HASH\"}, {\"AttributeName\":\"Titulo\",\"KeyType\":\"RANGE\"}], \
         \"ProvisionedThroughput\": {\"ReadCapacityUnits\": 10, \"WriteCapacityUnits\": 5      },\"Projection\":{\"ProjectionType\":\"ALL\"}}}]"
 ```
-<h3>ALBUM E ANO DO ALBUM</h3>
+<h5>ALBUM E ANO DO ALBUM</h5>
 
 ```
 aws dynamodb update-table \
@@ -67,9 +67,9 @@ aws dynamodb update-table \
         \"ProvisionedThroughput\": {\"ReadCapacityUnits\": 10, \"WriteCapacityUnits\": 5      },\"Projection\":{\"ProjectionType\":\"ALL\"}}}]"
 ```
 
--TESTE COM QUERIES
+<h4>TESTE COM QUERIES</h4>
 
-<h3>MÚSICAS POR ARTISTA</h3>
+<h5>MÚSICAS POR ARTISTA</h5>
 
 ```
 aws dynamodb query \
@@ -84,7 +84,7 @@ aws dynamodb query \
     --expression-attribute-values  '{":artista":{"S":"Baco Exu do Blues"}}'
 ```
 
-<h3>ARTISTA E TÍTULO DA MÚSICA</h3>
+<h5>ARTISTA E TÍTULO DA MÚSICA</h5>
 
 ```
 aws dynamodb query \
@@ -93,7 +93,7 @@ aws dynamodb query \
     --key-condition-expression "Artista = :artista and Titulo = :titulo" \
     --expression-attribute-values  '{":artista":{"S":"Djonga"},":titulo":{"S":"Geminiano"}}'
 ```
-<h3>ALBUM E ANO DE LANCAMENTO</h3>
+<h5>ALBUM E ANO DE LANCAMENTO</h5>
 
 ```
 aws dynamodb query \
